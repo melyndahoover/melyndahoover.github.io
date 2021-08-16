@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<!--
+	Alpha by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Teleportation</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<html lang="en">
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1><a href="index.html">MINDY</a> HOOVER</h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">About Me</a></li>
+							<li>
+								<a href="projects.html" class="icon solid fa-angle-down">Projects</a>
+								<ul>
+									<li><a href="projects.html#2D-projects">2D Projects</a>
+										<ul>									
+											<li><a href="goodads.html">Good Ads</a></li>
+											<li><a href="flightdeck.html">Flight Deck Displays</a></li>
+											<li><a href="lazysuzan.html">Lazy Suzan</a></li>
+										</ul>
+									</li>
+									<li><a href="projects.html#3D-projects">3D Projects</a>
+										<ul>
+											<li><a href="fof.html">Factory of the Future</a></li>
+											<li><a href="scottie.html">SCOTTIE</a></li>
+											<li><a href="teleportation.html" class="current">Teleportation</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<section id="main" class="container">
+					<header>
+						<h2>Teleportation Through Virtual Environments</h2>
+						<p>“Teleportation” is an NSF funded project aimed at investigating the cognitive process surrounding navigating virtual environments. My role in this project was to design a completely online VR user study to collect teleportation data during the COVID-19 pandemic.</p>
+					</header>
+					<div class="box">
+						<span class="image featured top35"><img src="images/teleport/teleport_header.png" alt="Commercial aircraft wing." /></span>
+
+						<h3>Problem Statement</h3>
+						<p style="text-align:justify">Before the COVID-19 pandemic, the grand majority of VR research was conducted in controlled lab environments. In order to maintain health and safety, our team decided to design a study that could be conducted completely online using the participants’ own VR hardware. My job was to design an online study capable of replicating the results of a similar study previously conducted in a lab environment.</p>
+
+						<h3>Research Questions</h3>
+						<p style="text-align:justify">The main goal of this experiment was to see if an unmoderated online study could replicate the results from a full-controlled lab experiment. In order to do this, we needed to learn how to conduct a successful VR study online, despite very little previous research on the subject. Lastly, I was personally interested in learning how we could use adaptive feedback in thee virtual environment to help the participant complete all the research tasks successfully.</p>
+
+						<ol>
+							<li>How can a lab-based VR experiment be adapted into an unmoderated, online study?</li>
+							<li>Can the online study replicate the results from a lab study?</li>
+							<li>How can we replicate “in the moment” feedback, normally provided by a research moderator?</li>
+						</ol>
+
+						<h3>Online Study Considerations</h3>
+						<p style="text-align:justify">I used existing literature about conducting unmoderated online research from the HCI and UX domains to develop the procedure and application for this online study. Based on this information, we decided to conduct our research on Amazon Mechanical Turk (MTurk) and Prolific. We also decided that all data should be automatically uploaded to a data server by the VR application to prevent any data loss. However, there are some additional challenges when designing an online study for VR. These include ensuring the application is device agnostic, the software is easy to install and launch, and the instructions and controls are easy to learn.</p>
+
+						<p style="text-align:justify">One notable difference between an in-person lab study, and an online VR study is that in the lab, the researcher can teach the participant how to use the controls to perform the task. This allows them to adapt their instruction to the needs of the user and repeat the instructions until an understanding is reached. The researcher can also intervene when the participant is performing the tasks incorrectly. To replicate this process in VR, I designed adaptive instructional feedback that was automatically displayed when the participant performed one of 5 common incorrect actions (as determined by pilot testing.)</p>
+
+						<div class="row">
+							<div class="col-6 col-12-narrower">
+								<span class="video fit">
+									<video autoplay muted>
+	  									<source src="images/teleport/triangle_completion.mp4" type=video/mp4>
+	  									Your browser does not support the video tag.
+									</video>
+									<p style="text-align: center"><i>Demonstration of triangle completion task</i></p>
+								</span>
+							</div>
+
+							<div class="col-6 col-12-narrower">
+								<h3>Task & Variables</h3>
+								<p style="text-align:justify">The task set by the lab study was a triangle completion task which tested the participant’s ability to remember where they have been inside a virtual environment. First the participant was asked to teleport to three locations in the shape of a triangle. Then they were asked to point back towards the location they started from. The amount of error in their response was then measured. The study had three different independent variables, each with two levels: teleportation method, virtual room size, and path length. The experiment had a full factorial, within-subjects design with 6 trials of each treatment.</p>
+							</div>
+						</div>
+
+						<h3>Data Analysis (In Progress)</h3>
+						<p style="text-align:justify">Independent samples t-test will be conducted to determine if online study was able to replicate the results of the lab study. Specifically, the tests will compare error magnitude and angular error to see if differences existed between the groups. Additionally, an analysis of variance will be conducted on the online group to see if the results of the original lab study are replicated. The results of the original lab study can be found in the previously published paper entitled, <a href="link: https://ieeexplore.ieee.org/document/8998297">“Teleporting through virtual environments: Effects of path scale and environment scale on spatial updating”.</a>
+
+						<p style="text-align:justify">To test the effectiveness of the adaptive instructional feedback, regression analysis will be conducted with error magnitude and completion time as dependent variables, and feedback types and quantity as predictors.</p>
+
+						<h3>Lessons Learned</h3>
+						<p style="text-align:justify">During the study, we faced several challenges associated with online data collection. One was that participants often falsified their Head-Mounted Display (HMD) ownership on MTurk. We found that it was much easier to find genuine VR HMD owners on Prolific. Another challenge was linking data from web-base Qualtrics surveys to VR data. To solve this problem, we assigned each participant a unique ID that they entered into the surveys and when launching the VR application. We also learned that it is very difficult to know if the study was completed as designed when conducting research online. For example, the participant could experience technical difficulties that render their data unusable. To mitigate this, we added survey questions where participants could report any problems with the hardware or software for easier data filtering.</p>
+
+						<h3>Future Work</h3>
+						<p style="text-align:justify">Preliminary data analysis has shown that the online study adequately replicated the results of the lab version. Therefore, we are currently developing a new online experiment to test the effects of performance feedback on the triangle completion task in VR.</p>
+
+					</div>
+				</section>
+
+			<!-- CTA -->	
+				<section id="cta">
+
+					<h2>What's next?</h2>
+
+					<ul class="actions special">
+						<li><a href="Resume.pdf" class="button">R&eacute;sum&eacute;</a></li>
+						<li><a href="goodads.html" class="button special icon solid" style="padding-right: 1.35em">Next Project<i class="fa fa-arrow-right" style="padding-left: 0.75em"></i></a></li>
+					</ul>
+
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/melyndahoover/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://twitter.com/melyndahoover/" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Melynda Hoover. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
