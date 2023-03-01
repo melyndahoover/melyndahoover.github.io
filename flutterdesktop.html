@@ -1,0 +1,193 @@
+<!DOCTYPE HTML>
+<!--
+	Alpha by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Flutter for Desktop</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<html lang="en">
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1><a href="index.html">MINDY</a> HOOVER</h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">About Me</a></li>
+							<li>
+								<a href="projects.html" class="icon solid fa-angle-down">Projects</a>
+								<ul>
+									<li><a href="projects.html#2D-projects">2D Projects</a>
+										<ul>									
+											<li><a href="flutterdesktop.html" class="current">Flutter for Desktop</a></li>
+											<li><a href="goodads.html">Good Ads</a></li>
+											<li><a href="flightdeck.html">Flight Deck Displays</a></li>
+											<li><a href="lazysuzan.html">Lazy Suzan</a></li>
+										</ul>
+									</li>
+									<li><a href="projects.html#3D-projects">3D Projects</a>
+										<ul>
+											<li><a href="fof.html">Factory of the Future</a></li>
+											<li><a href="scottie.html">SCOTTIE</a></li>
+											<li><a href="teleportation.html">Teleportation</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<section id="main" class="container">
+					<header>
+						<h2>Flutter for Desktop</h2>
+						<p>While at Google, I led a research project to prioritize future work and measure user satisfaction with Flutter for Desktop. For this project, I conducted focus groups and a large-scale survey (n=1,601).</p>
+					</header>
+					<div class="box">
+						<span class="image featured"><img src="images/flutter_desktop/laptop_dash.png" alt="Flutter mascot, 'Dash' using a laptop computer." /></span>
+						<p style="text-align:center"><weak><i>Due to confidentiality, some information my be omitted from the project description <br>The information provided does not necessarily represent the views of Google.</i></weak></p>
+						<h3>Problem Statement</h3>
+						<p style="text-align:justify">Flutter is a framework that helps developers deliver beautiful apps on multiple operating systems using a single codebase. Support for Windows, MacOS, and Linux is new to the Flutter portfolio and in need of additional features to improve the developer experience. Therefore, the goal of this research was to help the Flutter for Desktop engineers and team leads prioritize features, improve documentation, and create a metric with which to measure the success of desktop support over time.</p>
+
+						<h3>Research Questions</h3>
+							<p style="text-align:justify">
+								I collaborated with engineers, team leads, and our developer relations team to draft the research questions for this study. Together, we identified four main research questions:
+							</p>
+
+							<ol>
+								<li>How satisfied are users with Flutter for desktop?</li>
+								<li>How can we help developers create app designs that feel more natural to desktop?</li>
+								<li>What additional packages and features are most important to Flutter’s desktop developers?</li>
+								<li>What additional desktop documentation is needed?</li>
+							</ol>
+
+							<p style="text-align:justify">
+								We were also curious if the answers to these questions differed between developers who targeted Windows, MacOS, or Linux.</p>
+						
+
+						<h3>Methods</h3>
+						<p style="text-align:justify">At the beginning of this study, I had the opportunity to collect rich qualitative data from Flutter’s desktop developers at a community conference. In order to be economical with my time, I conducted focus groups with 14 desktop developers. Information from the focus groups was then used to help craft questions in a large-scale user survey. The survey allowed me to collect a large volume of data from Flutter’s desktop developers very quickly and  use quantitative measures to prioritize features.</p>
+
+
+						<p style="text-align:justify">In total, the survey collected 1,601 responses using Qualtrics. The survey was launched in Q3 of 2022 as a module of the established quarterly Flutter user survey. A screening question was used to exclude those who had not developed a desktop app for Flutter in the last three months. Participants were further divided based on which operating systems they had built apps for.</p>
+
+						<p style="text-align:justify">Likert-scale questions were used to rate satisfaction with Flutter for desktop overall, as well as for specific stages of the development process, and desktop documentation. Single- and multiple-choice questions were used to help prioritize features, and free-response questions were used to help inform early feature requirements.</p>  
+
+						<h3>Results</h3>
+						<p style="text-align:justify">After the data was collected, I used a combination of R and Google Sheets to analyze the  quantitative data. Qualitative data was analyzed in collaboration with engineering stakeholders using a combination of Google Sheets to tag data and Miro to summarize and categorize responses. This helped our distributed team analyze the data together and increased stakeholder engagement and understanding.</p>
+
+						<h4>Satisfaction</h4>
+						<p style="text-align:justify">Satisfaction questions in the survey helped us establish a base-line measurement that can be used to measure improvements to the product overtime using subsequent quarterly Flutter surveys. Additionally, we were able to determine that user satisfaction with Flutter for Desktop (78%) was on par with that of Flutter for iOS (79%), below Flutter for Android (92%), and above Flutter for web (63%), leaving much room for improvement. Additionally, the development stages with the most room for improvement were “Finding documentation”, “Debugging performance issues”, and “Deploying the app”.</p>
+
+						<div class="row">
+							<div class="col-2 col-10">
+								<span class="image fit">
+										<img src="images/flutter_desktop/SAT.jpeg" alt="A line plot showing satisfaction across stages of the development process with low points at 'finding documentation', 'debugging performance issues', and 'deploying the app'">
+										<p style="text-align: center"><i>Flutter for desktop satisfaction by development workflow stage</i></p>
+								</span>
+							</div>
+						</div>
+
+						<h4>Design</h4>
+						<p style="text-align:justify">Initially, Flutter only supported the development of apps for Android and iOS, with support for web and desktop coming years later. Because of this, many of the UI widgets that come with the Flutter framework are mobile-centric. So, we asked desktop developers how we could help them design apps that look and work great on desktop. The results showed that desktop developers need to be able to create app layouts that easily adapt from mobile or web to desktop (43.5%). They also want better drag and drop interfaces (31.4%), and keyboard shortcuts (26.9%). Others requested more OS-specific design patterns so that their apps could feel more natural to their users.</p>
+
+						<div class="row">
+							<div class="col-2 col-10">
+								<span class="image fit">
+										<img src="images/flutter_desktop/design.jpeg" alt="A bar chart showing the frequency of design feature requests by target operating system">
+										<p style="text-align: center"><i>Which of the following could be improved to help you reach your design goals when using flutter to develop desktop apps?</i></p>
+								</span>
+							</div>
+						</div>
+
+						<h4>Packages & Features</h4>
+						<p style="text-align:justify">When it came to packages that would help developers create desktop apps, the most requested feature was multiple windows (35.3%). Since mobile apps only consist of one small window, this feature was unnecessary before desktop support became available. Developers also requested the ability to manipulate native menu bars in their apps (32.2%), meaning the bar at the top of the window that often includes options like “File” and “Edit”, for example. Other top feature requests included local data storage (24.3%) and webviews (23.2%), which provide the ability to embed web apps such as Google Maps inside a desktop app. </p>
+
+						<div class="row">
+							<div class="col-2 col-10">
+								<span class="image fit">
+										<img src="images/flutter_desktop/packages.jpeg" alt="A bar chart showing the frequency of package and feature requests by target operating system">
+										<p style="text-align: center"><i>Which APIs or features do you wish were better supported by Flutter?</i></p>
+								</span>
+							</div>
+						</div>
+
+						<h4>Documentation</h4>
+						<p style="text-align:justify">Lastly, we found that satisfaction with Flutter for Desktop documentation was 13% lower than that of Flutter’s general documentation. The areas in which developers wanted more resources included:</p>
+
+						<ol>
+							<li>Publishing desktop apps (43.3%)</li>
+							<li>Automatic updating (42.2%)</li>
+							<li>Foreign Function Interface (FFI) (41.6%)</li>
+						</ol>
+
+						<div class="row">
+							<div class="col-2 col-10">
+								<span class="image fit">
+										<img src="images/flutter_desktop/docs.jpeg" alt="A bar chart showing the frequency of documentation topic requests">
+										<p style="text-align: center"><i>Which of the following desktop-specific topics do you wish was better documented?</i></p>
+								</span>
+							</div>
+						</div>
+
+						<h3>Impact</h3>
+						<p style="text-align:justify">The data from the survey was used to prioritize feature work and documentation for Flutter for Desktop in 2023 including solutions for multi-window and native menu bars. The Flutter for Desktop team is also prioritizing updates to the existing flutter_adaptive_scaffold package to address problems with creating adaptive layouts. Since the study was completed, Flutter has already released an informational <a href="https://codelabs.developers.google.com/codelabs/flutter-adaptive-app" target="_blank">codelab</a> to help developers build adaptive apps and is composing additional documentation on publishing apps for desktop.</p>
+
+						<p style="text-align:justify">The impact of these changes will be measured quarterly using a satisfaction question in the quarterly Flutter survey. Additionally, this detailed desktop survey will be repeated annually to identify new feature requests and reprioritize work.</p>
+
+						<p style="text-align:justify">For more information, see my <a href="https://medium.com/flutter/how-can-we-improve-the-flutter-experience-for-desktop-70b34bff9392" target="_blank">blog post</a> on Flutter’s Medium Publication summarizing the survey results and planned improvements. The article helped inspire conversation with the Flutter community about their needs and the future of Flutter for desktop while improving transparency with users.</p>
+
+						<h3>Lessons Learned</h3>
+						<p style="text-align:justify">Over the course of this project, I learned valuable skills in collaborating with cross-functional stakeholders. I also improved my ability to communicate research results to varied audiences including users, engineers and project managers.</p>
+
+						<p style="text-align:justify">The largest learning curve for this project was learning to conduct focus groups for the first time and coordinating in-person research in a foreign country. From this experience, I learned about many pitfalls of focus group research, including group think, data collection, and data analysis. </p>
+
+						</div>
+					</div>
+				</section>
+
+			<!-- CTA -->	
+				<section id="cta">
+
+					<h2>What's next?</h2>
+
+					<ul class="actions special">
+						<li><a href="Resume.pdf" class="button">Resume</a></li>
+						<li><a href="goodads.html" class="button special icon solid" style="padding-right: 1.35em">Next Project<i class="fa fa-arrow-right" style="padding-left: 0.75em"></i></a></li>
+					</ul>
+
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/melyndahoover/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://twitter.com/melyndahoover/" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Melynda Hoover. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
