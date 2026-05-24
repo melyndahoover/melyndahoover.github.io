@@ -4,13 +4,13 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="en">
 	<head>
-		<title>Teleportation</title>
+		<title>VR Locomotion</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<html lang="en">
+
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
@@ -24,19 +24,18 @@
 							<li>
 								<a href="projects.html" class="icon solid fa-angle-down">Projects</a>
 								<ul>
-									<li><a href="projects.html#2D-projects">2D Projects</a>
-										<ul>									
-											<li><a href="flutterdesktop.html">Flutter for Desktop</a></li>
-											<li><a href="goodads.html">Good Ads</a></li>
+									<li><a href="projects.html#hardware">Hardware</a>
+										<ul>
+											<li><a href="comfort.html">Wearable Comfort</a></li>
+											<li><a href="fof.html">Factory of the Future</a></li>
 											<li><a href="flightdeck.html">Flight Deck Displays</a></li>
-											<li><a href="lazysuzan.html">Lazy Suzan</a></li>
 										</ul>
 									</li>
-									<li><a href="projects.html#3D-projects">3D Projects</a>
+									<li><a href="projects.html#software">Software</a>
 										<ul>
-											<li><a href="fof.html">Factory of the Future</a></li>
-											<li><a href="scottie.html">SCOTTIE</a></li>
-											<li><a href="teleportation.html" class="current">Teleportation</a></li>
+											<li><a href="flutterdesktop.html">Flutter for Desktop</a></li>
+											<li><a href="goodads.html">Good Ads</a></li>
+											<li><a href="teleportation.html" class="current">VR Locomotion</a></li>
 										</ul>
 									</li>
 								</ul>
@@ -61,7 +60,7 @@
 			<!-- Main -->
 				<section id="main" class="container">
 					<header>
-						<h2>Teleportation Through Virtual Environments</h2>
+						<h2>VR Locomotion</h2>
 						<p>“Teleportation” is an NSF funded project aimed at investigating the cognitive process surrounding navigating virtual environments. My role in this project was to design a completely online VR user study to collect teleportation data during the COVID-19 pandemic.</p>
 					</header>
 					<div class="box">
@@ -102,16 +101,16 @@
 							</div>
 						</div>
 
-						<h3>Data Analysis (In Progress)</h3>
-						<p style="text-align:justify">Independent samples t-test will be conducted to determine if online study was able to replicate the results of the lab study. Specifically, the tests will compare error magnitude and angular error to see if differences existed between the groups. Additionally, an analysis of variance will be conducted on the online group to see if the results of the original lab study are replicated. The results of the original lab study can be found in the previously published paper entitled, <a href="link: https://ieeexplore.ieee.org/document/8998297">“Teleporting through virtual environments: Effects of path scale and environment scale on spatial updating”.</a>
+						<h3>Data Analysis</h3>
+						<p style=”text-align:justify”>Independent samples t-tests were used to compare error magnitude and angular error between the online and lab groups. An analysis of variance was conducted on the online group to determine if the effects found in the <a href=”https://ieeexplore.ieee.org/document/8998297” target=”_blank”>original lab study</a> were replicated. Regression analysis was also used to test the effectiveness of the adaptive instructional feedback, with error magnitude and completion time as dependent variables and feedback types and quantity as predictors.</p>
 
-						<p style="text-align:justify">To test the effectiveness of the adaptive instructional feedback, regression analysis will be conducted with error magnitude and completion time as dependent variables, and feedback types and quantity as predictors.</p>
+						<h3>Results</h3>
+						<p style=”text-align:justify”>The online study successfully replicated the key findings from the original lab experiment. This confirmed that unmoderated, online VR studies can produce reliable spatial cognition data comparable to controlled lab settings. The adaptive feedback system also proved effective at helping participants complete the task correctly without a live moderator present.</p>
+
+						<p style=”text-align:justify”>The results were published in <a href=”https://ieeexplore.ieee.org/abstract/document/9714054” target=”_blank”>IEEE Transactions on Visualization and Computer Graphics</a> (Vol. 28, No. 5, May 2022): J. W. Kelly et al., “Remote research on locomotion interfaces for virtual reality: Replication of a lab-based study on teleporting interfaces.”</p>
 
 						<h3>Lessons Learned</h3>
-						<p style="text-align:justify">During the study, we faced several challenges associated with online data collection. One was that participants often falsified their Head-Mounted Display (HMD) ownership on MTurk. We found that it was much easier to find genuine VR HMD owners on Prolific. Another challenge was linking data from web-base Qualtrics surveys to VR data. To solve this problem, we assigned each participant a unique ID that they entered into the surveys and when launching the VR application. We also learned that it is very difficult to know if the study was completed as designed when conducting research online. For example, the participant could experience technical difficulties that render their data unusable. To mitigate this, we added survey questions where participants could report any problems with the hardware or software for easier data filtering.</p>
-
-						<h3>Future Work</h3>
-						<p style="text-align:justify">Preliminary data analysis has shown that the online study adequately replicated the results of the lab version. Therefore, we are currently developing a new online experiment to test the effects of performance feedback on the triangle completion task in VR.</p>
+						<p style=”text-align:justify”>During the study, we faced several challenges with online data collection. Participants on MTurk often falsified their Head-Mounted Display ownership, while Prolific was far more reliable for finding genuine VR headset owners. Linking web-based Qualtrics survey data to VR application data required assigning each participant a unique ID used across both systems. We also found it difficult to verify whether participants completed the study as designed, since they could experience technical issues that made their data unusable. Adding self-report survey questions about hardware or software problems made data filtering much easier.</p>
 
 					</div>
 				</section>
@@ -123,7 +122,7 @@
 
 					<ul class="actions special">
 						<li><a href="Resume.pdf" class="button">Resume</a></li>
-						<li><a href="flutterdesktop.html" class="button special icon solid" style="padding-right: 1.35em">Next Project<i class="fa fa-arrow-right" style="padding-left: 0.75em"></i></a></li>
+						<li><a href="comfort.html" class="button special icon solid" style="padding-right: 1.35em">Next Project<i class="fa fa-arrow-right" style="padding-left: 0.75em"></i></a></li>
 					</ul>
 
 				</section>
@@ -132,7 +131,7 @@
 				<footer id="footer">
 					<ul class="icons">
 						<li><a href="https://www.linkedin.com/in/melyndahoover/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://twitter.com/melyndahoover/" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://scholar.google.com/citations?user=uFscDTIAAAAJ" class="icon solid fa-graduation-cap"><span class="label">Google Scholar</span></a></li>
 					</ul>
 					<ul class="copyright">
 						<li>&copy; Melynda Hoover. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>

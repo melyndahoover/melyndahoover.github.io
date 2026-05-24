@@ -1,0 +1,182 @@
+<!DOCTYPE HTML>
+<!--
+	Alpha by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="en">
+	<head>
+		<title>Wearable Comfort Benchmarking</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1><a href="index.html">MINDY</a> HOOVER</h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">About Me</a></li>
+							<li>
+								<a href="projects.html" class="icon solid fa-angle-down">Projects</a>
+								<ul>
+									<li><a href="projects.html#hardware">Hardware</a>
+										<ul>
+											<li><a href="comfort.html">Wearable Comfort</a></li>
+											<li><a href="fof.html">Factory of the Future</a></li>
+											<li><a href="flightdeck.html">Flight Deck Displays</a></li>
+										</ul>
+									</li>
+									<li><a href="projects.html#software">Software</a>
+										<ul>
+											<li><a href="flutterdesktop.html">Flutter for Desktop</a></li>
+											<li><a href="goodads.html">Good Ads</a></li>
+											<li><a href="teleportation.html">VR Locomotion</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</header>
+
+				<!-- Google tag (gtag.js) -->
+				<script async src="https://www.googletagmanager.com/gtag/js?id=G-HQV54XTMCR"></script>
+				<script>
+				  window.dataLayer = window.dataLayer || [];
+				  function gtag(){dataLayer.push(arguments);}
+				  gtag('js', new Date());
+
+				  gtag('config', 'G-HQV54XTMCR');
+				</script>
+
+			<!-- Main -->
+				<section id="main" class="container">
+					<header>
+						<h2>Wearable Comfort Benchmarking</h2>
+						<p>At Meta, I own the comfort benchmarking program for an AR/VR wearable device. For this multi-phase research profram, I designed the research framework that measures whether the device meet user comfort requirements across physical fit/comfort, thermal comfort, and visual comfort including eye strain and visually induced motion sickness (VIMS).</p>
+					</header>
+					<div class="box">
+						<span class="image featured"><img src="images/comfort/AI_Comfort_Photo.png" alt="AI generated image of a researcher observing a comfort study participant using a VR headset" /></span>
+						<p style="text-align:center"><weak><i>Due to the confidentiality of this work, specific product details, data, and internal metrics cannot be shared.<br>The information provided does not necessarily represent the views of Meta.</i></weak></p>
+
+						<h3>Problem Statement</h3>
+						<p style="text-align:justify">Head-worn AR/VR devices present unique comfort challenges. Unlike phones or laptops, these products rest directly on the user's face and head for extended periods. Comfort failures are the primary reason users stop wearing a device. If it's too heavy, too hot, or slips during use, people take it off. For wearable products, comfort cannot be an afterthought. It needs to be measured, tracked, and validated at every stage of hardware development.</p>
+
+						<p style="text-align:justify">I was brought on as the hardware UX research lead to build the comfort benchmarking program from scratch: define what "comfortable enough" means, create the instruments to measure it, and run the studies that inform whether the product is ready to ship.</p>
+
+						<h3>Research Approach</h3>
+						<p style="text-align:justify">The benchmarking program is structured in two phases, each designed to isolate different comfort variables and build on the findings of the last.</p>
+
+						<div class="row">
+							<div class="col-6 col-12-narrower">
+								<h4>Phase 1: Physical Comfort Baseline</h4>
+								<p style="text-align:justify">The first phase focuses on physical comfort (fit, stability, weight distribution, and pressure points) using non-functional prototype hardware. By removing display, software, and thermal variables, these studies isolate the mechanical comfort of the device itself. This phase has run across multiple hardware revisions, creating a longitudinal dataset that tracks how design changes affect comfort over time.</p>
+							</div>
+
+							<div class="col-6 col-12-narrower">
+								<h4>Phase 2: Functional Comfort Validation</h4>
+								<p style="text-align:justify">The second phase introduces functional devices with active displays, running software, and real thermal output. These studies measure the full comfort experience during realistic use scenarios. The key question: does comfort hold up when the device is actually running? Thermal output and visual strain introduce new variables that non-functional prototypes cannot capture.</p>
+							</div>
+						</div>
+
+						<h3>Study Design</h3>
+						<p style="text-align:justify">Each study follows a repeated-measures protocol with surveys administered at regular intervals during multi-hour wear sessions. The core survey instrument covers:</p>
+
+						<div class="row">
+							<div class="col-6 col-6-narrower">
+								<ul>
+									<li>Overall comfort and fit acceptability</li>
+									<li>Discomfort severity and body location mapping</li>
+									<li>Perceived weight and balance</li>
+									<li>Stability and slip frequency</li>
+								</ul>
+							</div>
+							<div class="col-6 col-6-narrower">
+								<ul>
+									<li>Adjustment frequency</li>
+									<li>Thermal comfort onset and severity</li>
+									<li>Eye strain and VIMS</li>
+									<li>Extrapolated wear duration and takeoff drivers</li>
+								</ul>
+							</div>
+						</div>
+
+						<p style="text-align:justify">The survey instrument was designed to be consistent across study phases, enabling direct comparison between hardware revisions and between non-functional and functional conditions. Each phase adds new modules (thermal, visual, software experience) while preserving the core physical comfort battery.</p>
+
+						<h3>Participant Recruitment & Fitting</h3>
+						<p style="text-align:justify">Wearable comfort is deeply personal. A device that fits one face shape well may be unusable on another. Each study recruits dozens of external participants screened for diverse anthropometrics. Before each session, participants go through a standardized fitting protocol to ensure they are wearing the correct size with properly adjusted components. This fitting process was developed iteratively across study phases and documented for vendor moderator training.</p>
+
+						<h3>Data Collection & Analysis</h3>
+						<p style="text-align:justify">Data is collected through Qualtrics surveys administered at regular intervals during multi-hour wear sessions, combined with in-depth exit interviews. This produces both quantitative comfort trajectories (how comfort changes over time) and qualitative insight into the specific experiences driving discomfort.</p>
+
+						<p style="text-align:justify">I also collaborated with a fellow researcher to vibe code a Python app to record device data over WiFi in real-time during sessions. This eliminated the need for additional wires that may have confounded the comfort signal, replacing an obstructive wired measurement setup.</p>
+
+						<p style="text-align:justify">Analysis combines descriptive and inferential statistics, performance tracking against product requirements, and comparison across hardware revisions. I pull results into topline findings shared with cross-functional stakeholders within days of data collection, followed by detailed reports with design recommendations shortly after. This collaborative approach allows me to enable </p>
+
+						<h3>AI-Augmented Research Workflows</h3>
+						<p style="text-align:justify">I integrate AI tools like Claude and Gemini into my research workflows to maintain consistency and move faster while always remaining "in the loop" to validate output quality. I use AI to generate study scripts and training documentation for external research moderators, ensuring every moderator follows the same protocol across sessions and study phases. This is especially important when running studies with vendor partners who may be unfamiliar with the product or the fitting process. AI tools also help me draft survey instruments, synthesize qualitative data from exit interviews, and prepare stakeholder-facing reports more quickly.</p>
+
+						<h3>Impact</h3>
+						<p style="text-align:justify">The benchmarking program has directly influenced hardware design decisions across multiple product development cycles. Specific impacts include:</p>
+
+						<ul>
+							<li><strong>Identified comfort regressions</strong> introduced by hardware design changes between prototype revisions, enabling the team to course-correct before finalizing design decisions.</li>
+							<li><strong>Defined product specifications</strong> for comfort, fit, stability, and thermal acceptability. These are the quantitative thresholds that determine whether the device meets its requirements.</li>
+							<li><strong>Built the validated survey instrument</strong> now used as the standard measurement tool for comfort research across this product line, enabling consistent tracking over time.</li>
+							<li><strong>Authored vendor safety and research protocols</strong> for handling unreleased hardware with external participants, including a leak prevention framework adopted by the broader research team.</li>
+						</ul>
+
+						<h3>Vendor & Stakeholder Management</h3>
+						<p style="text-align:justify">Each study involves coordinating with an external research vendor for participant recruitment, scheduling, and moderation. I manage the vendor relationship end-to-end: scoping and quoting, writing training materials, conducting on-site moderator training, running daily debriefs during data collection, and performing quality checks on incoming data. Internally, I present findings in cross-functional hardware and product reviews, where comfort data directly informs go/no-go decisions on design changes.</p>
+
+						<h3>What I Learned</h3>
+						<p style="text-align:justify">Building a benchmarking program from scratch taught me that the instrument design matters as much as the study design. Consistency across phases is what makes the data comparable. The same core questions, the same fitting protocol, the same acceptance criteria. That's what makes the trends meaningful and reliable. Without that consistency, each study would be a standalone snapshot rather than a longitudinal signal.</p>
+
+						<p style="text-align:justify">I also learned the value of bridging UXR and hardware engineering. Comfort research for wearables sits at the intersection of human perception and physical design. The most useful findings came from combining subjective user data with objective sensor measurements.</p>
+
+						</div>
+					</div>
+				</section>
+
+			<!-- CTA -->
+				<section id="cta">
+
+					<h2>What's next?</h2>
+
+					<ul class="actions special">
+						<li><a href="Resume.pdf" class="button">Resume</a></li>
+						<li><a href="fof.html" class="button special icon solid" style="padding-right: 1.35em">Next Project<i class="fa fa-arrow-right" style="padding-left: 0.75em"></i></a></li>
+					</ul>
+
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/melyndahoover/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://scholar.google.com/citations?user=uFscDTIAAAAJ" class="icon solid fa-graduation-cap"><span class="label">Google Scholar</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Melynda Hoover. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
